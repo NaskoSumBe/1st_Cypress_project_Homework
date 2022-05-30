@@ -23,7 +23,7 @@ describe('testing', function() {
         cy.get('#id_country').select([1])
         cy.get('#phone_mobile').type('0888333444')
         cy.get('#alias').clear().type('Peshtersko')
-        cy.get('#submitAccount > span').click() //------------------------------
+        cy.get('#submitAccount > span').click() //++++++++
     })    
 
     describe.only('7products', () => {
